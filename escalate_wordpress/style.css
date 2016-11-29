@@ -1,0 +1,407 @@
+/*
+Theme Name: Escalate
+Theme URI: http://www.techguywebsolutions.com;
+Author: Brad Traversy
+Author URI: http://www.techguywebsolutions.com;
+Description: This is a simple and clean Wordpress theme
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: escalate
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #F0F0F0 url(images/bg.png) repeat;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12pt;
+	font-weight: 300;
+	color: #181B20;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #2E9F13;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.4em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+	color: #C62647;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img
+{
+	margin-bottom: 2em;
+}
+
+.image
+{
+	display: inline-block;
+}
+
+.image img
+{
+	display: block;
+	width: 100%;
+}
+
+.image-full
+{
+	display: block;
+	width: 100%;
+	margin: 0 0 2em 0;
+}
+
+img.border {
+	border: 6px solid #EEE7DF;
+}
+
+img.alignleft {
+	float: left;
+	margin-right: 25px;
+}
+
+img.alignright {
+	float: right;
+}
+
+img.aligncenter {
+	margin: 0px auto;
+}
+
+#wrapper {
+	margin: 0 auto;
+	padding: 0;
+	background: url(images/img03.gif) no-repeat center top;
+}
+
+/* Header */
+
+#header-wrapper {
+	height: 240px;
+}
+
+#header {
+	width: 960px;
+	height: 240px;
+	margin: 0 auto;
+}
+
+/* Logo */
+
+#logo {
+	width: 980px;
+	height: 100px;
+	margin: 0px auto;
+	padding: 80px 0px 0px 0px;
+	color: #3B3B3B;
+}
+
+#logo h1, #logo p {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+#logo h1 {
+	margin: 0px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 54px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#logo h1 a {
+	color: #3B3B3B;
+}
+
+#logo p {
+	letter-spacing: 1px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.90em;
+	color: #8F8F8F;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #8F8F8F;
+}
+
+/* Search */
+
+#search {
+	float: right;
+	width: 280px;
+	height: 100px;
+	padding: 0;
+}
+
+#search form {
+	height: 41px;
+	margin: 0;
+	padding: 60px 0 0 30px;
+}
+
+#search fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#search-text {
+	width: 195px;
+	padding: 6px 10px;
+	border: none;
+	background: #FFFFFF;
+	text-transform: lowercase;
+	font: normal 11px Arial, Helvetica, sans-serif;
+	color: #7F7F81;
+}
+
+#search-submit {
+	display: none;
+}
+
+/* Menu */
+
+#menu {
+	width: 940px !important;
+	height: 56px !important;
+	margin: 0px auto !important;
+	padding: 20px 20px 0px 20px !important;
+	background: #F44C31;
+}
+
+#menu ul {
+	margin: 0 !important;
+	padding: 0px 0px 0px 0px !important;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+}
+
+#menu li {
+	display: inline-block !important;
+}
+
+#menu a {
+	display: block;
+	height: 56px;
+	margin: 0px;
+	padding: 0px 30px 0px 30px !important;
+	line-height: 56px !important;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	color: #FFF;
+}
+
+#menu .current_page_item a {
+	background: #FFFFFF;
+	color: #F44C31;
+}
+
+#menu a:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+
+/* Page */
+
+#page {
+	width: 1100px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #FFFFFF;
+}
+
+#page-bgtop {
+}
+
+#page-bgbtm {
+	margin: 0px;
+	padding: 40px 50px 0px 50px;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 650px;
+	padding: 0px 0px 0px 0px;
+}
+
+.post {
+	clear: both;
+	padding-bottom: 10px;
+}
+
+.post .title {
+	padding-top: 10px;
+	letter-spacing: -2px;
+}
+
+.post .title a {
+	color: #1A1A1A;
+	border: none;
+}
+
+.post .meta {
+	padding-bottom: 10px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: italic;
+}
+
+.post .meta a {
+}
+
+.post .entry {
+	text-align: justify;
+	margin-bottom: 25px;
+	padding: 10px 0px 0px 0px;
+}
+
+.links {
+	display: block;
+	width: 96px;
+	padding: 2px 0px 2px 0px;
+	background: #A53602;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	width: 280px;
+	padding: 0px 0px 0px 0px;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar li ul {
+	margin: 0px 0px;
+	padding-bottom: 30px;
+}
+
+#sidebar li li {
+	line-height: 35px;
+}
+
+#sidebar li li span {
+	display: block;
+	margin-top: -20px;
+	padding: 0;
+	font-size: 11px;
+	font-style: italic;
+}
+
+#sidebar h2 {
+	height: 38px;
+	margin-bottom: 20px;
+	padding: 12px 0 0 0;
+	border-bottom: 1px solid #B6BFD0;
+	letter-spacing: -1px;
+	font-size: 24px;
+	color: #1A1A1A;
+}
+
+#sidebar p {
+	text-align: justify;
+}
+
+#sidebar a {
+	border: none;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+}
+
+/* Calendar */
+
+#calendar {
+}
+
+#calendar_wrap {
+	padding: 20px;
+}
+
+#calendar table {
+	width: 100%;
+}
+
+#calendar tbody td {
+	text-align: center;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+/* Footer */
+
+#footer {
+	width: 1200px;
+	margin: 0em auto;
+	padding: 5em 0em;
+	background: url(images/shadow.png) no-repeat center top;
+}
+
+#footer p {
+	letter-spacing: 0.20em;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.80em;
+	color: #8F8F8F;
+}
+
+#footer a {
+	color: #8F8F8F;
+}
